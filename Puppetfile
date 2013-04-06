@@ -26,6 +26,12 @@ def dev(name, *args)
   mod name, :path => "#{ENV['HOME']}/src/boxen/puppet-#{name}"
 end
 
+def githubsource(name, options=nil)
+  options ||= {}
+  options[:repo] ||= "boxen/puppet-#{name}"
+  mod name, :git => "git://github.com/#{options[:repo]}.git"
+end
+
 # Includes many of our custom types and providers, as well as global
 # config. Required.
 
@@ -56,3 +62,5 @@ github "xquartz",     "1.1.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+githubsource "alfred"

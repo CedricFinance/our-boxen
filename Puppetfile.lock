@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/boxen/puppet-alfred.git
+  ref: master
+  sha: c802ff798478731f756c11f6d17e633ba826c7da
+  specs:
+    alfred (0.0.1)
+
 GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
@@ -99,6 +106,7 @@ GITHUBTARBALL
     module-data (0.0.1)
 
 DEPENDENCIES
+  alfred (>= 0)
   boxen (= 3.3.8)
   dnsmasq (= 1.0.1)
   foreman (= 1.1.0)

@@ -86,4 +86,7 @@ node default {
     ensure => link,
     target => $boxen::config::repodir
   }
+
+  # other packages
+  include alfred
 }
