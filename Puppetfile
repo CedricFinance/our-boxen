@@ -64,3 +64,7 @@ github "xquartz",     "1.1.1"
 # https://github.com/boxen.
 
 githubsource "alfred"
+github "graphviz", "1.0.0"
+github "pkgconfig", "1.0.0"
+github "swig", "1.0.0"
+github "pcre", "1.0.0"
