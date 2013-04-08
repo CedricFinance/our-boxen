@@ -90,4 +90,5 @@ node default {
   # other packages
   include alfred
   include graphviz
+  include tmux
 }
