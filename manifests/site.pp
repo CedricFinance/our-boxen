@@ -91,4 +91,5 @@ node default {
   include alfred
   include graphviz
   include tmux
+  include googledrive
 }
