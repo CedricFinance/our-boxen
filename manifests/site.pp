@@ -92,4 +92,5 @@ node default {
   include graphviz
   include tmux
   include googledrive
+  include postgresql
 }

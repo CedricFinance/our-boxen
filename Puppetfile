@@ -65,8 +65,11 @@ github "tmux",       "1.0.2"
 # https://github.com/boxen.
 
 githubsource "alfred"
-github "graphviz", "1.0.0"
-github "pkgconfig", "1.0.0"
-github "swig", "1.0.0"
-github "pcre", "1.0.0"
+github "graphviz",    "1.0.0"
+github "pkgconfig",   "1.0.0"
+github "swig",        "1.0.0"
+github "pcre",        "1.0.0"
 github "googledrive", "1.0.1"
+github "postgresql",  "2.0.1"
+github "sysctl",      "1.0.0"
+
