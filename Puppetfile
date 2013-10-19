@@ -72,4 +72,5 @@ github "pcre",        "1.0.0"
 github "googledrive", "1.0.1"
 github "postgresql",  "2.0.1"
 github "sysctl",      "1.0.0"
+github "sourcetree",  "1.0.0"
 

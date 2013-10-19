@@ -93,4 +93,5 @@ node default {
   include tmux
   include googledrive
   include postgresql
+  include sourcetree
 }
