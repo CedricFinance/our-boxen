@@ -94,4 +94,6 @@ node default {
   include googledrive
   include postgresql
   include sourcetree
+  include bash
+  include bash::completion
 }
