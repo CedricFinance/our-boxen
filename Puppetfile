@@ -75,4 +75,5 @@ github "sysctl",      "1.0.0"
 github "sourcetree",  "1.0.0"
 github "bash",        "1.1.0"
 github "osx",         "2.2.0"
+github "atlassian_sdk", "1.0.2", :repo => "CedricFinance/puppet-atlassian_sdk"
 

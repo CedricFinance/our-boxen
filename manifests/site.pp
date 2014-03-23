@@ -96,4 +96,5 @@ node default {
   include sourcetree
   include bash
   include bash::completion
+  include atlassian_sdk
 }
