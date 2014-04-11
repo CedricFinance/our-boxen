@@ -98,4 +98,5 @@ node default {
   include bash::completion
   include atlassian_sdk
   include tig
+  include vcsh
 }

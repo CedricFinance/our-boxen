@@ -11,6 +11,11 @@ GITHUBTARBALL
     atlassian_sdk (1.0.2)
 
 GITHUBTARBALL
+  remote: CedricFinance/puppet-vcsh
+  specs:
+    vcsh (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-bash
   specs:
     bash (1.1.0)
@@ -199,5 +204,6 @@ DEPENDENCIES
   sysctl (= 1.0.0)
   tig (= 1.0.0)
   tmux (= 1.0.2)
+  vcsh (= 1.0.0)
   xquartz (= 1.1.1)
 
