@@ -97,4 +97,5 @@ node default {
   include bash
   include bash::completion
   include atlassian_sdk
+  include tig
 }
